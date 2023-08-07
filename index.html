@@ -1,25 +1,35 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Busca - Diretório IEPAFDD</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca - Diretório IEPAFDD</title>
+    <link rel="stylesheet" href="index2.css">
+    <script src="https://kit.fontawesome.com/fe0a3092c6.js" crossorigin="anonymous" defer></script>
 <script language="JavaScript1.3" type="text/javascript" src="jse_form.js">
 </script>
-
 </head>
-<body>
-
-
-<!-- Find -->
-
+<body style="background-color:#808080">
+    <main>
+        <div>
+            <img src="https://cdn.iepafontededeus.com.br/images/LOGO2.png" width="300" height="300" class="responsive">
+        </div> 
 <form name="jse_Form" onsubmit="search_form(jse_Form);return false">
-<input type="text" placeholder="Pesquise aqui..." name="d">
-<input type="button" value="Buscar" onclick="search_form(jse_Form)">
+<div class="search-box">
+            <div>
+                <i class="fas fa-search"></i>
+            </div>
+<input type="text" style="width:300%; align-items: left;" placeholder="Pesquise aqui..."name="d">
+<div>
+                <i class="fas fa-microphone"></i>
+            </div>
+        </div>
+        <div class="main-search">
+<input type="button" style="width: 23%" value="Buscar" onclick="search_form(jse_Form)">
+<input style="width: 23%" onClick="window.location.href='https://diretorio.iepafontededeus.com.br/'" type="submit" Value="Diretório">
+        </div>
 </form>
-
-Utilize o barra de pesquisa acima para pesquisar sobre os conteúdos da IEP A Fonte de Deus.
-
-
+    </main>
 </body>
 </html>
